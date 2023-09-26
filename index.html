@@ -1,0 +1,201 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Dropdown List Example</title>  
+    <script>  
+        function showImage() {  
+            // Получить выбранный элемент из списка  
+            var selectedValue = document.getElementById("speakerList").value;  
+              
+            // Получить элемент для отображения изображения  
+            var imageElement = document.getElementById("speakerImage");  
+              
+            // Установить путь к изображению на основе выбранного значения  
+            var imagePath = "";  // Установите путь к папке с изображениями  
+              
+            if (selectedValue === "Element 1") {  
+                imagePath = "/Милена Соколова.png";  
+            } else if (selectedValue === "Element 2") {  
+                imagePath = "/Шерин Келли.png";  
+            }  else if (selectedValue === "Element 3") {  
+                imagePath = "/Айнур Даллас.png";  
+            }  else if (selectedValue === "Element 4") {  
+                imagePath = "/Надежда Ковалевская.png";  
+            }  else if (selectedValue === "Element 5") {  
+                imagePath = "/Жанна Казанская.png";  
+            }  else if (selectedValue === "Element 6") {  
+                imagePath = "/Лина Клевер.png";  
+            }  else if (selectedValue === "Element 7") {  
+                imagePath = "/Алина Вернадская.png";  
+            }  else if (selectedValue === "Element 8") {  
+                imagePath = "/Виктория Ланская.png";  
+            }  else if (selectedValue === "Element 9") {  
+                imagePath = "/Аля Виноградова.png";  
+            }  else if (selectedValue === "Element 10") {  
+                imagePath = "/Фариша Князева.png";  
+            }  else if (selectedValue === "Element 11") {  
+                imagePath = "/Артур Шарафиев.png";  
+            }  else if (selectedValue === "Element 12") {  
+                imagePath = "/Андрей Баканчев.png";  
+            }  else if (selectedValue === "Element 13") {  
+                imagePath = "/Аделия Адамова.png";  
+            }  else if (selectedValue === "Element 14") {  
+                imagePath = "/Айбулат Чева.png";  
+            }  else if (selectedValue === "Element 15") {  
+                imagePath = "/Виктория Ларионова.png";  
+            }  else if (selectedValue === "Element 16") {  
+                imagePath = "/Анастасия Малова.png";  
+            }  else if (selectedValue === "Element 17") {  
+                imagePath = "/Александр Долгих.png";  
+            }  else if (selectedValue === "Element 18") {  
+                imagePath = "/Азат Антипов.png";  
+            }  else if (selectedValue === "Element 19") {  
+                imagePath = "/Макс Тесла.png";  
+            }  else if (selectedValue === "Element 20") {  
+                imagePath = "/Богдан Чагин.png";  
+            }  else if (selectedValue === "Element 21") {  
+                imagePath = "/Анастасия Майер.png";  
+            }  else if (selectedValue === "Element 22") {  
+                imagePath = "/Женя Нейтрон.png";  
+            }  else if (selectedValue === "Element 23") {  
+                imagePath = "/Нил Эванс.png";  
+            }  else if (selectedValue === "Element 24") {  
+                imagePath = "/Никита Салливан.png";  
+            }  else if (selectedValue === "Element 25") {  
+                imagePath = "/Александра Май.png";  
+            }  else if (selectedValue === "Element 26") {  
+                imagePath = "/Анастасия Аддамс.png";  
+            }  else if (selectedValue === "Element 27") {  
+                imagePath = "/Кристина Мельникова.png";  
+            }  else if (selectedValue === "Element 28") {  
+                imagePath = "/Софья Вайб.png";  
+            }  else if (selectedValue === "Element 29") {  
+                imagePath = "/Никита Равич.png";  
+            }  else if (selectedValue === "Element 30") {  
+                imagePath = "/Елизавета Островская.png";  
+            }  else if (selectedValue === "Element 31") {  
+                imagePath = "/Евгений Тьюринг.png";  
+            }  else if (selectedValue === "Element 32") {  
+                imagePath = "/Илья Кузьмин.png";  
+            }  else if (selectedValue === "Element 33") {  
+                imagePath = "/Кристина Лазарева.png";  
+            }  else if (selectedValue === "Element 34") {  
+                imagePath = "/Мария Вельф.png";  
+            }  else if (selectedValue === "Element 35") {  
+                imagePath = "/Никита Сахаров.png";  
+            }  else if (selectedValue === "Element 36") {  
+                imagePath = "/Татьяна Граева.png";  
+            }  else if (selectedValue === "Element 37") {  
+                imagePath = "/Анастасия Коллинз.png";  
+            }  else if (selectedValue === "Element 38") {  
+                imagePath = "/Анастасия Ахматова.png";  
+            }  else if (selectedValue === "Element 39") {  
+                imagePath = "/Алина Максимова.png";  
+            }  else if (selectedValue === "Element 40") {  
+                imagePath = "/Елена Зеленская.png";  
+            }  else if (selectedValue === "Element 41") {  
+                imagePath = "/Никита Павлов.png";  
+            }  else if (selectedValue === "Element 42") {  
+                imagePath = "/Вероника Соколовская.png";  
+            }  else if (selectedValue === "Element 43") {  
+                imagePath = "/Артем Фролов.png";  
+            }  else if (selectedValue === "Element 44") {  
+                imagePath = "/Дарья Львова.png";  
+            }  else if (selectedValue === "Element 45") {  
+                imagePath = "/Дарья Королёва.png";  
+            }  else if (selectedValue === "Element 46") {  
+                imagePath = "/Данир Баев.png";  
+            }  else if (selectedValue === "Element 47") {  
+                imagePath = "/Семён Кравченко.png";  
+            }  else if (selectedValue === "Element 48") {  
+                imagePath = "/Равиль Кандинский.png";  
+            }  else if (selectedValue === "Element 49") {  
+                imagePath = "/Анастасия Гласная.png";  
+            }  else if (selectedValue === "Element 50") {  
+                imagePath = "/Ольга Чехова.png";  
+            }  else if (selectedValue === "Element 51") {  
+                imagePath = "/Максим Кораблёв.png";  
+            }  else if (selectedValue === "Element 52") {  
+                imagePath = "/Александра Лебедева.png";  
+            }  else if (selectedValue === "Element 53") {  
+                imagePath = "/Денис Марков.png";  
+            }  else if (selectedValue === "Element 54") {  
+                imagePath = "/Дмитрий Купер.png";  
+            }  else if (selectedValue === "Element 55") {  
+                imagePath = "/Тим Гук.png";  
+            }  
+            // Добавьте условия для всех остальных элементов  
+              
+            // Установить источник изображения элемента  
+            imageElement.setAttribute("src", imagePath);  
+        }  
+    </script>  
+
+</head>  
+<body>  
+    <h1>Dropdown List Example</h1>  
+      
+    <select id="speakerList" onchange="showImage()">  
+        <option value="">Выберите элемент</option>  
+        <option value="Element 1">Милена Соколова</option>  
+        <option value="Element 2">Шерин Келли</option>  
+        <option value="Element 3">Айнур Даллас</option> 
+        <option value="Element 4">Надежда Ковалевская</option>
+        <option value="Element 5">Жанна Казанская</option> 
+        <option value="Element 6">Лина Клевер</option> 
+        <option value="Element 7">Алина Вернадская</option> 
+        <option value="Element 8">Виктория Ланская</option> 
+        <option value="Element 9">Аля Виноградова</option> 
+        <option value="Element 10">Фариша Князева</option> 
+        <option value="Element 11">Артур Шарафиев</option> 
+        <option value="Element 12">Андрей Баканчев</option> 
+        <option value="Element 13">Аделия Адамова</option> 
+        <option value="Element 14">Айбулат Чева</option> 
+        <option value="Element 15">Виктория Ларионова</option> 
+        <option value="Element 16">Анастасия Малова</option> 
+        <option value="Element 17">Александр Долгих</option> 
+        <option value="Element 18">Азат Антипов</option> 
+        <option value="Element 19">Макс Тесла</option> 
+        <option value="Element 20">Богдан Чагин</option> 
+        <option value="Element 21">Анастасия Майер</option> 
+        <option value="Element 22">Женя Нейтрон</option> 
+        <option value="Element 23">Нил Эванс</option> 
+        <option value="Element 24">Никита Салливан</option> 
+        <option value="Element 25">Александра Май</option> 
+        <option value="Element 26">Анастасия Аддамс</option> 
+        <option value="Element 27">Кристина Мельникова</option> 
+        <option value="Element 28">Софья Вайб</option> 
+        <option value="Element 29">Никита Равич</option> 
+        <option value="Element 30">Елизавета Островская</option> 
+        <option value="Element 31">Евгений Тьюринг</option> 
+        <option value="Element 32">Илья Кузьмин</option>
+        <option value="Element 33">Кристина Лазарева</option>
+        <option value="Element 34">Мария Вельф</option>
+        <option value="Element 35">Никита Сахаров</option>
+        <option value="Element 36">Татьяна Граева</option>
+        <option value="Element 37">Анастасия Коллинз</option>
+        <option value="Element 38">Анастасия Ахматова</option>
+        <option value="Element 39">Алина Максимова</option>
+        <option value="Element 40">Елена Зеленская</option>
+        <option value="Element 41">Никита Павлов</option>
+        <option value="Element 42">Вероника Соколовская</option>
+        <option value="Element 43">Артем Фролов</option>
+        <option value="Element 44">Дарья Львова</option>
+        <option value="Element 45">Дарья Королёва</option>
+        <option value="Element 46">Данир Баев</option>
+        <option value="Element 47">Семён Кравченко</option>
+        <option value="Element 48">Равиль Кандинский</option>
+        <option value="Element 49">Анастасия Гласная</option>
+        <option value="Element 50">Ольга Чехова</option>
+        <option value="Element 51">Максим Кораблёв</option>
+        <option value="Element 52">Александра Лебедева</option>
+        <option value="Element 53">Денис Марков</option>
+        <option value="Element 54">Дмитрий Купер</option>
+        <option value="Element 55">Тим Гук</option>
+    </select>  
+      
+    <br><br>  
+      
+    <img id="speakerImage" src="" alt="Изображение спикера">  
+</body>  
+</html>  
