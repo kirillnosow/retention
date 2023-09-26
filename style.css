@@ -1,0 +1,27 @@
+/* Стили для селекта */  
+#speakerList {  
+  padding: 10px;  
+  font-size: 16px;  
+  border: 1px solid #ccc;  
+  border-radius: 5px;  
+  width: 200px;  
+  background-color: #fff;  
+  color: #333;  
+}  
+  
+/* Стили для блока изображения */  
+#speakerImage {  
+  max-width: 300px;  
+  margin-top: 20px;  
+}  
+  
+/* Стили для оформления страницы */  
+body {  
+  font-family: Arial, sans-serif;  
+  text-align: center;  
+  margin: 20px;  
+}  
+  
+h1 {  
+  color: #333;  
+}  
