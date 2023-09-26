@@ -7,6 +7,7 @@
   width: 200px;  
   background-color: #fff;  
   color: #333;  
+  align: center;
 }  
   
 /* Стили для блока изображения */  
@@ -14,6 +15,7 @@
   max-width: 1500px;  
   margin-top: 20px;  
   width: 1500px;
+  align: center;
 }  
   
 /* Стили для оформления страницы */  
@@ -24,4 +26,5 @@ body {
   
 h1 {  
   color: #333;  
+  text-align: center;
 }  
